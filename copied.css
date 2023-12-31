@@ -1,0 +1,66 @@
+#content h1 {
+    color: #333;
+    letter-spacing: -1px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.drop-cap-1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: purple;
+    padding: 10px 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+}
+.drop-cap-dark {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: plum;
+    padding: 10px 25px;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+}
+.drop-cap {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: purple;
+    padding: 10px 25px;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+}
+.content-info {
+    padding: 45px 30px 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15) !important;
+    background: white;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(2 * var(--bs-gutter-y));
+    margin-right: calc(2 * var(--bs-gutter-x));
+    margin-left: calc(2 * var(--bs-gutter-x));
+}
+.disclaimer {
+    padding: 20px 12px;
+    font-size: 11px;
+    color: #909090;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){}
+.box-top, .works, .bottom-home, .loan-rewards, .box-top-home {
+    padding: 40px 20px;
+    height: auto;
+    margin: 0 4px 0 4px;
+}
